@@ -263,7 +263,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+
+						<?php /* <div class="row">
 							<div class="col-lg-12 mx-auto">
 							<!-- Tripay -->
                                 <div class="card shadow mb-4">
@@ -294,6 +295,7 @@
 								</div>
 							</div>
 						</div>
+						
 						<div class="row">
 							<div class="col-lg-12 mx-auto">
 								<!-- Tripay -->
@@ -324,7 +326,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */ ?>
 							
 						<div class="row">
 							<div class="col-lg-12 mx-auto">
@@ -352,6 +354,7 @@
 							</div>
 						</div>
 
+						<?php /*
 						<div class="row">
 							<div class="col-lg-12 mx-auto">
                                 <!-- Tripay -->
@@ -377,7 +380,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div>*/?>
 
 					<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
 						<div class="row mt-2">

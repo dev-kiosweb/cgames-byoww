@@ -60,11 +60,11 @@
             </li>
 
             <!-- Nav Item - Konfigurasi -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="<?= base_url(); ?>/admin/whatsapp">
                     <i class="fas fa-fw fa-comment-dots"></i>
                     <span>Template WhatsApp</span></a>
-            </li>
+            </li> -->
 
             <!-- Divider -->
             <hr class="sidebar-divider">
