@@ -59,6 +59,13 @@
                     <span>Konfigurasi</span></a>
             </li>
 
+            <!-- Nav Item - Bantuan -->
+            <li class="nav-item">
+                <a class="nav-link" href="<?= base_url(); ?>/admin/sosmed">
+                    <i class="fas fa-fw fa-icons"></i>
+                    <span>Sosial Media</span></a>
+            </li>
+
             <!-- Nav Item - Konfigurasi -->
             <!-- <li class="nav-item">
                 <a class="nav-link" href="<?= base_url(); ?>/admin/whatsapp">
@@ -160,19 +167,12 @@
             </li>
 
             <!-- Divider -->
-            <hr class="sidebar-divider">
+            <!-- <hr class="sidebar-divider"> -->
 
             <!-- Heading -->
-            <div class="sidebar-heading">
+            <!-- <div class="sidebar-heading">
                 Konten
-            </div>
-
-            <!-- Nav Item - Bantuan -->
-            <li class="nav-item">
-                <a class="nav-link" href="<?= base_url(); ?>/admin/sosmed">
-                    <i class="fas fa-fw fa-headphones"></i>
-                    <span>Bantuan</span></a>
-            </li>
+            </div> -->
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
