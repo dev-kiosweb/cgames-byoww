@@ -89,8 +89,8 @@ class Sistem extends BaseController {
 					// 	}
 	
 					// }
+					$rows = array_merge($rows, ['status' => $status, 'message' => $ket]);
 				}
-				$rows = array_merge($rows, ['status' => $status, 'message' => $ket]);
 			}
         }
 
@@ -183,8 +183,8 @@ class Sistem extends BaseController {
 					// 	}
 	
 					// }
+					$rows = array_merge($rows, ['status' => $status, 'message' => $ket]);
 				}
-				$rows = array_merge($rows, ['status' => $status, 'message' => $ket]);
 			}
         }
 
@@ -215,11 +215,11 @@ class Sistem extends BaseController {
 				} else {
 					$data = json_decode($json, true);
 
-					$this->M_Base->data_insert('callback', [
-						'signature' => $callbackSignature,
-						'data' => $json,
-						'signature' => 'Signature Success'
-					]);
+					// $this->M_Base->data_insert('callback', [
+					// 	'signature' => $callbackSignature,
+					// 	'data' => $json,
+					// 	'signature' => 'Signature Success'
+					// ]);
 
 					if ($data) {
 						if (is_array($data)) {
